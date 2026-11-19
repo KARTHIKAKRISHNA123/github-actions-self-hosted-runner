@@ -1,0 +1,34 @@
+
+# Node.js dependencies
+node_modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# GitHub Actions runner credentials
+.credentials
+.credentials_rsaparams
+.runner
+
+# GitHub Actions runner directories
+_diag/
+_work/
+bin/
+externals/
+actions-runner/
+
+# GitHub Actions runner installation archives
+*.zip
+
+# Runner configuration and execution scripts
+config.cmd
+run.cmd
+run-helper.cmd
+run-helper.cmd.template
+run-helper.sh.template
