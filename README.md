@@ -66,7 +66,6 @@ Runner files and credentials (`.credentials`, `.runner`, `bin/`, `_work/`) are l
 
 | Workflow   | Runs on                          | Trigger                  |
 | ---------- | -------------------------------- | ------------------------ |
-| `ci.yml`   | `ubuntu-latest` (GitHub-hosted)  | Push and PR to `main`    |
 | `cicd.yml` | `[self-hosted, Windows, X64]`    | Push to `main` only      |
 
 `cicd.yml` steps: checkout, check that Node.js 22 is installed, `npm ci`, build if present, `npm test`.
